@@ -1,5 +1,6 @@
-# map-assets
+# stellar-blade-assets
 
-Тайлы и картинки для интерактивных карт [BroskiPlay](https://broskiplay.ru/). Раздаются через GitHub Pages и подключаются со страниц карт из репозитория `my-interactive-maps`.
+Тайлы подложки и картинки из окон меток для интерактивной карты [Stellar Blade](https://broskiplay.ru/stellar-blade-map/) (BroskiPlay). Раздаются через GitHub Pages.
 
-Структура: `<карта>-map/tiles/<локация>/<z>/<x>/<y>.webp` и `manifest.json` со списком существующих тайлов.
+- `tiles/<локация>/<z>/<x>/<y>.webp` и `tiles/<локация>/manifest.json` — список существующих тайлов
+- `popups/<id>.webp` — картинки из окон меток (id — первые 12 символов UUID оригинала)
